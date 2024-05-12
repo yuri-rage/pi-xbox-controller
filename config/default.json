@@ -1,0 +1,119 @@
+{
+  "buttons": {
+    "A": 5,
+    "B": 27,
+    "X": 4,
+    "Y": 26,
+    "DpadL": 17,
+    "DpadR": 16,
+    "DpadU": 19,
+    "DpadD": 22,
+    "LB": 23,
+    "RB": 24,
+    "TriggerL": 25,
+    "TriggerR": 12,
+    "Menu": 13,
+    "View": 6
+  },
+  "activeState": 0,
+  "actions": [
+    {
+      "name": "Level Up",
+      "trigger": {
+        "button": "",
+        "value": null
+      },
+      "sequence": [
+        {
+          "action": "DpadR",
+          "value": 0
+        },
+        {
+          "action": "delay",
+          "value": 20
+        },
+        {
+          "action": "DpadR",
+          "value": 1
+        },
+        {
+          "action": "delay",
+          "value": 30
+        }
+      ]
+    },
+    {
+      "name": "Scrap/Store",
+      "trigger": {
+        "button": "DpadL",
+        "value": 1
+      },
+      "sequence": [
+        {
+          "action": "delay",
+          "value": 10
+        },
+        {
+          "action": "X",
+          "value": 0
+        },
+        {
+          "action": "delay",
+          "value": 15
+        },
+        {
+          "action": "X",
+          "value": 1
+        },
+        {
+          "action": "delay",
+          "value": 8
+        },
+        {
+          "action": "B",
+          "value": 0
+        },
+        {
+          "action": "delay",
+          "value": 50
+        },
+        {
+          "action": "A",
+          "value": 0
+        },
+        {
+          "action": "delay",
+          "value": 50
+        },
+        {
+          "action": "A",
+          "value": 1
+        },
+        {
+          "action": "delay",
+          "value": 50
+        },
+        {
+          "action": "A",
+          "value": 0
+        },
+        {
+          "action": "delay",
+          "value": 50
+        },
+        {
+          "action": "A",
+          "value": 1
+        },
+        {
+          "action": "delay",
+          "value": 50
+        },
+        {
+          "action": "B",
+          "value": 1
+        }
+      ]
+    }
+  ]
+}
