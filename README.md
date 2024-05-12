@@ -1,4 +1,4 @@
-# PiXBox
+# PiXbox
 
 Raspberry Pi Xbox Controller Interface
 
@@ -42,11 +42,11 @@ sudo chown $user:$user /etc/authbind/byport/80
 sudo chmod 755 /etc/authbind/byport/80
 ```
 
-Download the release tarball from this repository's release page.
+Download the release tarball from this repository's [release page](https://github.com/yuri-rage/pi-xbox-controller/releases/).
 
 Unpack the tarball (`tar xvf release.tar.gz`) and run `npm install --omit=dev` in the unpacked directory.
 
-If the Pi complains about memory errors during `npm install`, you may need to temporarily increase the some swap space.
+If the Pi complains about memory errors during `npm install`, you may need to temporarily increase the swap space.
 
 Use `npm start` to start the server.
 
